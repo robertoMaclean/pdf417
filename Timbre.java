@@ -17,8 +17,8 @@ import java.io.UnsupportedEncodingException;
 
 public class timbre {
     
-    public static final String DEST = "D:\\pdf417\\FacturaTimbrada.pdf";
-    public static final String INPUT="D:\\pdf417\\Factura.pdf";
+    public static final String DEST = "/rutaOrigen"; //ruta del documento en formato pdf de origen al cual se añade el timbre
+    public static final String INPUT="/rutaDestino"; //ruta del documento con el timbre agregado
 
     public timbre() {
     }
